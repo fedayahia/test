@@ -4,8 +4,6 @@
     <title>Exercise#2 - Registration Form</title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
             font-family: Arial, sans-serif;
             height: 100;
         }
@@ -24,15 +22,15 @@
             border: 2px solid #000;
             display: inline-block;
             width:30%;
+            
         }
 
         label {
             display: inline-block;
             width: 120px;
             margin-bottom: 10px;
-        
-        
         }
+
         input, select {
             margin-bottom: 10px;
         }
@@ -54,7 +52,7 @@
 
     <form action="/action_page.php">
         <fieldset>
-            <legend>Personal Details</legend>
+            <legend style="text-align: left;">Personal Details</legend>
 
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="fname"><br>
@@ -73,7 +71,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>City</legend>
+            <legend style="text-align: left;">City</legend>
 
             <label for="cityy">City:</label>
             <select id="cityy" name="cityy">
